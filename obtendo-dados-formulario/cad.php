@@ -14,7 +14,7 @@
         
             $nome = $_GET["nome"] ?? "sem nome"; // ?? operador de null coalescing: se não enviar nada já recebe valor
             $sobrenome = $_GET["sobrenome"] ?? "desconhecido";
-            echo "<p>É um prazer te conhecer, $nome $sobrenome! Esse é o meu site.";
+            echo "<p>É um prazer te conhecer, $nome $sobrenome! Esse é o meu site.</p>";
         
         
         ?>
